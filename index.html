@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My Dictionary App</h1>
+    <div class="search-container">
+      <input autofocus type="text" id="search" placeholder="Search for a Word">
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="cards-container">
+      <div class="history-button-container">
+        <button id="historyBtn">History</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="history-page" style="display: none;">
+    <h1 id="search-history">Search History</h1>
+    <div class="cards-container" id="historyContainer"></div>
+    <div class="back-button-container">
+      <button id="backBtn">Back</button>
+    </div>
+    <div class="delete-button-container">
+      <button id="deleteBtn">Delete All</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
